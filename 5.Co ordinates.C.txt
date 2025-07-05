@@ -1,0 +1,17 @@
+5.Co ordinates
+#include <stdio.h>
+int main () {
+int x,y;
+printf("intput the coordinate (x,y):\n");
+scanf("%d",&x);
+scanf("%d",&y);
+if (x>0 & & y>0)
+printf("the coordinate points lies in first quadrant");
+else if(x<0 & & y<0)
+printf("the coordinate points lies in 2nd quadrent");
+else if(x<0 & & y<0)
+printf("the coordinate points lie in 3rd quadrent");
+ else if(x>0 & & y<0)
+ printf("the coordinate points lies in 4th quadrent");
+ return 0;
+}
