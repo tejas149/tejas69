@@ -1,0 +1,15 @@
+6.Sum of two numbers without arguments and without return value
+#include <stdio.h>
+void sum ();
+void sum ()
+{
+    int a,b;
+    printf("\nenter two numbers:");
+    scanf("%d %d",&a,&b);
+    printf("the sum is %d",a+b);
+}
+void main ()
+{
+    printf("\ngoing to calculate the sum of two numbers:");
+    sum();
+}
