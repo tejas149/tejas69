@@ -1,2 +1,2 @@
-# tejas69 c
-hello world
+# tejas69 vinay46 c
+ADARSH_PU_SEP_C_PROGRAMMING
