@@ -1,0 +1,36 @@
+3. Assignment operator
+#include <stdio.h>
+
+int main() {
+    int a, c;
+
+    // Input two separate numbers
+    printf("Enter the value of first number (a): ");
+    scanf("%d", &a);
+
+    printf("Enter the value of second number (c): ");
+    scanf("%d", &c);
+
+    // Performing compound assignments
+    c += a;
+    printf("After c += a, c = %d\n", c);
+
+    c -= a;
+    printf("After c -= a, c = %d\n", c);
+
+    c *= a;
+    printf("After c *= a, c = %d\n", c);
+
+    // Avoid division by zero
+    if (a != 0) {
+        c /= a;
+        printf("After c /= a, c = %d\n", c);
+
+        c %= a;
+        printf("After c %%= a, c = %d\n", c);
+    } else {
+        printf("Cannot perform division or modulus by zero.\n");
+    }
+
+    return 0;
+}
