@@ -1,0 +1,13 @@
+15.addition.C
+#include <stdio.h>
+void calculate_sum(int x, int y) {
+    int sum = x + y;
+    printf("The sum of %d + %d is: %d\n", x, y, sum);
+}
+
+int main() {
+    calculate_sum(5, 3);
+    calculate_sum(8, 2);
+    calculate_sum(15, 15);
+    return 0;
+}
